@@ -16,10 +16,6 @@ def print_titles():
     print(final_output)
 
 
-import argparse
-import math
-import sys
-
 # Crear el parser
 parser = argparse.ArgumentParser(description="Calculadora de préstamos")
 parser.add_argument('--principal', type=int, required=False, help="Deuda total del préstamo")
